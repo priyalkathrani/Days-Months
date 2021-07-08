@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Months and Days</string>
+    <string name="timesActivityName">Time of Day</string>
+    <string name="colorsActivityName">Colors Names</string>
+    <string name="seasonsActivityName">Seasons Names</string>
+    <string name="daysActivityName">Days Names</string>
+    <string name="monthsActivityName">Months Names</string>
+</resources>

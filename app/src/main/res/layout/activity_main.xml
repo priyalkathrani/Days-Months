@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/background_image"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/month_view"
+        android:background="@drawable/btn1_gradient"
+        style="@style/button_style"
+        android:layout_marginTop="-100dp"
+        android:text="@string/monthsActivityName" />
+
+    <TextView
+        android:id="@+id/days_view"
+        style="@style/button_style"
+        android:background="@drawable/btn2_gradient"
+        android:text="@string/daysActivityName"
+        android:onClick="days_view"/>
+
+    <TextView
+        android:id="@+id/season_view"
+        style="@style/button_style"
+        android:background = "@drawable/btn3_gradient"
+        android:text="@string/seasonsActivityName"
+        />
+
+    <TextView
+        android:id="@+id/color_view"
+        style="@style/button_style"
+        android:background = "@drawable/btn4_gradient"
+        android:text="@string/colorsActivityName"
+        />
+
+    <TextView
+        android:id="@+id/time_view"
+        style="@style/button_style"
+        android:background = "@drawable/btn5_gradient"
+        android:text="@string/timesActivityName"
+        />
+
+</LinearLayout>
